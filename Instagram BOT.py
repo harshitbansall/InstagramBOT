@@ -28,6 +28,7 @@ def auth():
 def main():
     auth()
     while True:
+        print("Indexes and Tasks")
         myTable = PrettyTable(["Index","Task"])
         myTable.add_row(["1", "Download Profile Image from Username"])
         myTable.add_row(["2", "Download All Posts from Username"])
@@ -75,5 +76,4 @@ def main():
             print("{} Folder Created.".format(username))
         elif query == "3":
             instaloader.Instaloader(download_videos=False, save_metadata=False, post_metadata_txt_pattern='').download_hashtag(input("Enter Hashtag: "), max_count=20)
-        break
 main()
