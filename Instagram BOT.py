@@ -23,6 +23,7 @@ def auth():
             instagramBot.load_session_from_file(userName)
         except:
             instagramBot.login(userName,input("Enter Password: "))
+            instagramBot.save_session_to_file()
     print("{0} Logged In.".format(userName))
 
 def main():
