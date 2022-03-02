@@ -29,8 +29,8 @@ pip install -r requirements.txt
 
 * <code>Example 1</code> - Download Profile Image of <code>jacquelinef143</code>
 <div>
-<img src = "https://user-images.githubusercontent.com/24206423/156174852-2615dd80-548e-4839-8105-a0accdefba6f.png" height = 200>
-<img src = "https://user-images.githubusercontent.com/24206423/156174856-1bd8eb95-69da-4591-814f-b75cde6db9e6.png">
+<img src = "https://user-images.githubusercontent.com/24206423/156174852-2615dd80-548e-4839-8105-a0accdefba6f.png" height = 170>
+<img src = "https://user-images.githubusercontent.com/24206423/156174856-1bd8eb95-69da-4591-814f-b75cde6db9e6.png" height = 170>
 </div>
 <br>
 
